@@ -2,8 +2,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://lvminhnhat.github.io',
-  base: '/profile',
+  site: 'https://minnyat.dev',
   output: 'static',
   build: {
     assets: '_assets'
