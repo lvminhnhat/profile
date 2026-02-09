@@ -26,24 +26,24 @@ const projects = (await getCollection('work'))
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
-				<Hero
-					title="Hello, my name is Minnyat"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
-					align="start"
-				>
-					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
-					</div>
-				</Hero>
+			<Hero
+				title="Hello, my name is Minh Nhat"
+				tagline="I am a Full-stack Developer based in Ho Chi Minh City, Vietnam. Passionate about AI-powered apps, scalable APIs, and creative automation."
+				align="start"
+			>
+				<div class="roles">
+					<Pill><Icon icon="code" size="1.33em" /> Full-stack Dev</Pill>
+					<Pill><Icon icon="strategy" size="1.33em" /> AI Builder</Pill>
+					<Pill><Icon icon="terminal-window" size="1.33em" /> Open Source</Pill>
+				</div>
+			</Hero>
 
-				<img
-					alt="Minnyat smiling in a red plaid shirt and tortoise shell glasses"
-					width="480"
-					height="620"
-					src="/assets/portrait.jpg"
-				/>
+			<img
+				alt="Minh Nhat - Full-stack Developer"
+				width="480"
+				height="620"
+				src="/assets/portrait.jpg"
+			/>
 			</header>
 
 			<Skills />
@@ -53,7 +53,7 @@ const projects = (await getCollection('work'))
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<p>Here are some of my highlight projects — from AI-powered desktop apps to developer tools and automation pipelines.</p>
 				</header>
 
 				<div class="gallery">
@@ -78,19 +78,18 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Achievements & Tech</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+						Competitive programmer with strong algorithmic thinking, building full-stack apps with modern technologies.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['Codeforces 1658', '2nd Prize Informatics', '30+ GitHub Repos', 'Python · TypeScript · Go', 'React · Next.js · Astro'].map((item) => (
 								<li class="mention-card">
-									<p>{brand}</p>
+									<p>{item}</p>
 								</li>
 							))
 						}

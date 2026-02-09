@@ -1,35 +1,30 @@
 ---
-title: Markdown Mystery Tour
-publishDate: 2020-03-02 00:00:00
+title: FileFilter
+publishDate: 2024-11-20 00:00:00
 img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: A clean interface showing image filtering options
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Desktop image processing tool with batch operations,
+  smart filtering, and format conversion powered by OpenCV.
 tags:
-  - Design
   - Dev
-  - User Testing
+  - Python
+  - Desktop
 ---
 
-## Level-two heading
+FileFilter is a desktop tool for batch image processing and file management. Built with Python and OpenCV, it streamlines repetitive image operations like resizing, format conversion, filtering, and organizing files by metadata.
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+## Key Features
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+- **Batch image processing** — resize, crop, and convert hundreds of images at once
+- **Smart filtering** by resolution, file size, format, and EXIF metadata
+- **Format conversion** between PNG, JPEG, WebP, TIFF, and more
+- **Duplicate detection** using perceptual hashing to find similar images
+- **Custom filter pipelines** — chain operations together for complex workflows
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+## Tech Stack
 
-### Level-three heading
-
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
-
-### Level-three heading
-
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+- **Core**: Python, OpenCV, Pillow
+- **UI**: Desktop GUI with drag-and-drop support
+- **Processing**: Multi-threaded batch operations for speed
+- **Detection**: Perceptual hashing, EXIF parsing
