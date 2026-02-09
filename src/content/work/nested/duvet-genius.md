@@ -1,7 +1,7 @@
 ---
 title: AI Content Generator
 publishDate: 2024-12-10 00:00:00
-img: /assets/stock-3.jpg
+img: /assets/aicontent-cover.png
 img_alt: Abstract flowing shapes representing AI-generated content
 description: |
   Dual-model AI content pipeline using OpenAI and Google Gemini

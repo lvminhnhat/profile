@@ -1,7 +1,7 @@
 ---
 title: VoiceType
 publishDate: 2025-01-15 00:00:00
-img: /assets/stock-2.jpg
+img: /assets/voicetype-cover.png
 img_alt: A microphone icon representing voice-to-text technology
 description: |
   Real-time voice-to-text desktop app powered by OpenAI Whisper,

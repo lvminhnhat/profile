@@ -1,7 +1,7 @@
 ---
 title: FileFilter
 publishDate: 2024-11-20 00:00:00
-img: /assets/stock-1.jpg
+img: /assets/filefilter-cover.png
 img_alt: A clean interface showing image filtering options
 description: |
   Desktop image processing tool with batch operations,
